@@ -1,0 +1,29 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(27, 26, 26);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: wheat;
+    font-size: 1.02rem;
+}

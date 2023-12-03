@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+footer{
+    background-color: rgb(27, 26, 26);
+    /* height: 230px; */
+}
+
+.footer{
+    display: flex;
+    padding: 20px 90px;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    width: 200px;
+}
+
+.footer ul{
+    list-style: none;
+
+}
+
+footer .text-footer{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+ .second-footer{
+    display: flex;
+    justify-content: center;
+}
+
